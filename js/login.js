@@ -26,7 +26,7 @@ var login = (function(){
                         _this.loginSuccess(data);
                     }
                 }
-                sendAjax('http://localhost/0929-login/admin/php/login.php', params);
+                sendAjax('http://localhost:5555/0929-login/login-register/php/login.php', params);
             }
         },
         loginSuccess: function(data) {
